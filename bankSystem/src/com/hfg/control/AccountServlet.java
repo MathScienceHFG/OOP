@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import com.hfg.dao.AccountDao;
 import com.hfg.model.Account;
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
+
 public class AccountServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 
@@ -22,6 +25,7 @@ public class AccountServlet extends javax.servlet.http.HttpServlet {
         account.setBalance(Double.parseDouble(balance));
         AccountDao accountDao=new AccountDao();
         accountDao.addAccount(account);
+
 
     }
 }

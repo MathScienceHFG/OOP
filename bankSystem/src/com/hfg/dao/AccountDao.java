@@ -25,7 +25,7 @@ public class AccountDao {
             pstmt.setDouble(3,account.getBalance());
             pstmt.setString(4,account.getAccountType());
             int rs = pstmt.executeUpdate();
-
+            System.out.println("good");
             if (rs > 0)
             {
                 bool = true;

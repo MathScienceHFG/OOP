@@ -5,7 +5,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <form action="/index1.jsp">
+  <form action="/account">
     account:<br>
     <input type="text" name="account" value="">
     <br>

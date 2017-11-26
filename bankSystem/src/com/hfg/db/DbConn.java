@@ -12,8 +12,8 @@ public final class DbConn
 		Connection conn = null;
 		
 		String user   = "root";
-		String passwd = "hexin123";
-		String url = "jdbc:mysql://localhost:3306/test?createDatabaseIfNotExist=true&useSSL=false";//
+		String passwd = "syqr27..";
+		String url = "jdbc:mysql://localhost:3306/test_jpa?createDatabaseIfNotExist=true&useSSL=false";//
 		
 		//已加载完驱动
 		try
